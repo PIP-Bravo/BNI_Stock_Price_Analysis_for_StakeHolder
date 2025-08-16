@@ -1,7 +1,7 @@
 # 📊 Stock Price Analysis for StakeHolder : A Study Case on BNI Stock Historical Price  
 *A Data-Driven Approach to Support Strategic Decisions for Investors, Risk Managers, and Traders as Stakeholders*
 
-# 📌 **Project Overview**
+# 📌 **A. Project Overview**
 ## 🔎 Tujuan Proyek :
 
 Proyek ini bertujuan menganalisis pergerakan harga saham PT Bank Negara Indonesia (Persero) Tbk (BBNI) untuk menggali pola, tren, dan dinamika pasar yang dapat dijadikan dasar dalam pengambilan keputusan strategis. Analisis dilakukan dengan pendekatan kuantitatif berbasis data historis, meliputi indikator teknikal seperti Simple Moving Average (SMA) 20 & 50 hari, volatilitas harga, return bulanan dan tahunan, serta Relative Strength Index (RSI).
@@ -62,12 +62,12 @@ Metodologi dalam proyek ini mengintegrasikan analisis kuantitatif dengan sumaris
    - Berdasarkan hasil sumarisasi, dibuat rekomendasi yang lebih kontekstual dan spesifik untuk tiap kelompok pemangku kepentingan.
 
 
-# 🗂️ **Raw Dataset Link**
+# 🗂️ **B. Raw Dataset Link**
 Dataset historis saham BNI tersedia di Kaggle melalui tautan berikut:  
 🔗 [BNI Stock Historical Price - Kaggle](https://www.kaggle.com/datasets/caesarmario/bank-negara-indonesia-stock-historical-price/data)
 
 
-# 💡 **Insight & Findings**
+# 💡 **C. Insight & Findings**
 Bagian ini menyajikan hasil insight yang didasari oleh temuan dari proses  analisis teknikal saham PT Bank Negara Indonesia (BBNI) menggunakan berbagai indikator dan metrik kinerja. Setiap sub-bagian menampilkan visualisasi yang disertai dengan insight dan findings untuk mendukung pengambilan keputusan.
 
 
@@ -153,7 +153,7 @@ Grafik RSI(14) menunjukkan fluktuasi kekuatan relatif harga sepanjang periode 20
 - Batas oversold: di bawah 30 (garis hijau putus-putus) terjadi di beberapa titik, termasuk pada awal 2019 dan periode 2023–2024.
 
 
-# ✅ **Recommendations**
+# ✅ **D. Recommendations**
 Berdasarkan hasil temuan dan insight yang kemudian disumarisasi, berikut adalah rekomendasi yang dibuat untuk masing-masing stakeholder yang teridentifikasi, terkait dengan apa yang harus mereka lakukan dengan saham BNI.
 
 ## 👤 Bagi Investor  
@@ -211,7 +211,7 @@ Berdasarkan hasil temuan dan insight yang kemudian disumarisasi, berikut adalah 
   Gunakan Bollinger Bands dan indikator volatilitas intraday untuk mencari peluang scalping sebesar 0,5–1,5% ketika harga menyentuh batas atas atau bawah, terutama pada hari-hari dengan rilis berita atau laporan keuangan penting.
 
 
-# 🤖 **AI Support Explanation**
+# 🤖 **E. AI Support Explanation**
 ## Model yang Digunakan
 - **ibm-granite/granite-3.3-8b-instruct**
 
@@ -248,7 +248,12 @@ Model ini merupakan Large Language Model (LLM) berbasis instruksi (instruction-t
    - Output kemudian disimpan dalam variabel (`summary_text`) dan ditampilkan dengan format profesional.   
 
 
-✨ *Kesimpulan singkat:*  
-Proyek ini memberikan wawasan mendalam terkait harga saham BNI dengan pendekatan analisis berbasis data historis dan dukungan AI. Stakeholder dapat memanfaatkan insight ini untuk membuat keputusan investasi yang lebih cerdas, tepat waktu, dan relevan dengan kondisi pasar.
+# ✨ **Conclusion**  
+Sebagai kesimpulan, wawasan ini memberikan pandangan multifaset terhadap kinerja saham BNI dari tahun 2019 hingga awal 2025, yang memenuhi beragam kebutuhan investor, manajer risiko, dan trader. Investor harus mempertimbangkan imbal hasil tahunan yang lambat dibandingkan dengan volatilitas saham dan risiko drawdown, serta mempertimbangkan pola musiman untuk menyusun strategi jangka panjang mereka. Manajer risiko harus mengatasi volatilitas tinggi dan risiko drawdown signifikan melalui teknik lindung nilai (hedging) dan manajemen portofolio yang tepat. Para trader dapat memanfaatkan sinyal teknikal, analisis volatilitas, dan pola musiman untuk mengoptimalkan titik masuk dan keluar mereka, serta mengelola risiko melalui penentuan ukuran posisi dan mekanisme stop-loss yang tepat. Secara keseluruhan, pemahaman yang komprehensif tentang wawasan ini memungkinkan para pemangku kepentingan untuk membuat keputusan yang lebih terinformasi, menyelaraskan strategi mereka dengan perilaku saham BNI dan kondisi pasar.
 
----
+# 📬 **Contact Me**   
+
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/alfon1906)  
+- [![Instagram](https://img.shields.io/badge/Instagram-Follow-pink?logo=instagram)](https://www.instagram.com/alfon_1906)  
+- [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?logo=youtube)](https://www.youtube.com/@FonzgamingYT)  
+
