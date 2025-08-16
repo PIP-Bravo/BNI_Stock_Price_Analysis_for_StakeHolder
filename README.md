@@ -40,7 +40,7 @@ Proyek ini bertujuan untuk menjawab tantangan tersebut dengan tidak hanya melaku
 Metodologi dalam proyek ini mengintegrasikan analisis kuantitatif dengan sumarisasi berbasis AI, yang disusun dalam langkah-langkah berikut:  
 
 1. **Pengumpulan & Pra-pemrosesan Data**  
-   - Mengambil data historis harga saham BBNI dan menyiapkannya dalam format terstruktur untuk analisis.  
+   Mengambil data historis harga saham BBNI dan menyiapkannya dalam format terstruktur untuk analisis.  
 
 2. **Eksplorasi Data & Visualisasi (EDA) & Visualisasi**  
    - Membuat visualisasi pergerakan harga saham.  
@@ -59,7 +59,7 @@ Metodologi dalam proyek ini mengintegrasikan analisis kuantitatif dengan sumaris
    - Menghasilkan sumarisasi terstruktur yang disesuaikan untuk aktor investor, risk manager, dan trader.  
 
 5. **Pembuatan Rekomendasi**  
-   - Berdasarkan hasil sumarisasi, dibuat rekomendasi yang lebih kontekstual dan spesifik untuk tiap kelompok pemangku kepentingan.
+   Berdasarkan hasil sumarisasi, dibuat rekomendasi yang lebih kontekstual dan spesifik untuk tiap kelompok pemangku kepentingan.
 
 
 # 🗂️ **B. Raw Dataset Link**
