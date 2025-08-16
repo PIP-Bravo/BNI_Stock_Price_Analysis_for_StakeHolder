@@ -1,7 +1,7 @@
 # 📊 Stock Price Analysis for StakeHolder : A Study Case on BNI Stock Historical Price  
 *A Data-Driven Approach to Support Strategic Decisions for Investors, Risk Managers, and Traders as Stakeholders*
 
-> # 📌 **Project Overview**
+# 📌 **Project Overview**
 ## 🔎 Tujuan Proyek :
 
 Proyek ini bertujuan menganalisis pergerakan harga saham PT Bank Negara Indonesia (Persero) Tbk (BBNI) untuk menggali pola, tren, dan dinamika pasar yang dapat dijadikan dasar dalam pengambilan keputusan strategis. Analisis dilakukan dengan pendekatan kuantitatif berbasis data historis, meliputi indikator teknikal seperti Simple Moving Average (SMA) 20 & 50 hari, volatilitas harga, return bulanan dan tahunan, serta Relative Strength Index (RSI).
@@ -62,12 +62,12 @@ Metodologi dalam proyek ini mengintegrasikan analisis kuantitatif dengan sumaris
    - Berdasarkan hasil sumarisasi, dibuat rekomendasi yang lebih kontekstual dan spesifik untuk tiap kelompok pemangku kepentingan.
 
 
-> # 🗂️ **Raw Dataset Link**
+# 🗂️ **Raw Dataset Link**
 Dataset historis saham BNI tersedia di Kaggle melalui tautan berikut:  
 🔗 [BNI Stock Historical Price - Kaggle](https://www.kaggle.com/datasets/caesarmario/bank-negara-indonesia-stock-historical-price/data)
 
 
-> # 💡 **Insight & Findings**
+# 💡 **Insight & Findings**
 Bagian ini menyajikan hasil insight yang didasari oleh temuan dari proses  analisis teknikal saham PT Bank Negara Indonesia (BBNI) menggunakan berbagai indikator dan metrik kinerja. Setiap sub-bagian menampilkan visualisasi yang disertai dengan insight dan findings untuk mendukung pengambilan keputusan.
 
 
@@ -153,7 +153,7 @@ Grafik RSI(14) menunjukkan fluktuasi kekuatan relatif harga sepanjang periode 20
 - Batas oversold: di bawah 30 (garis hijau putus-putus) terjadi di beberapa titik, termasuk pada awal 2019 dan periode 2023–2024.
 
 
-> # ✅ **Recommendations**
+# ✅ **Recommendations**
 Berdasarkan hasil temuan dan insight yang kemudian disumarisasi, berikut adalah rekomendasi yang dibuat untuk masing-masing stakeholder yang teridentifikasi, terkait dengan apa yang harus mereka lakukan dengan saham BNI.
 
 ## 👤 Bagi Investor  
@@ -211,7 +211,7 @@ Berdasarkan hasil temuan dan insight yang kemudian disumarisasi, berikut adalah 
   Gunakan Bollinger Bands dan indikator volatilitas intraday untuk mencari peluang scalping sebesar 0,5–1,5% ketika harga menyentuh batas atas atau bawah, terutama pada hari-hari dengan rilis berita atau laporan keuangan penting.
 
 
-> # 🤖 **AI Support Explanation**
+# 🤖 **AI Support Explanation**
 ## Model yang Digunakan
 - **ibm-granite/granite-3.3-8b-instruct**
 
@@ -224,7 +224,8 @@ Model ini merupakan Large Language Model (LLM) berbasis instruksi (instruction-t
 - Hasil summarization membantu menyederhanakan data teknis yang kompleks menjadi dasar pembuatan rekomendasi yang **mudah dipahami dan relevan bagi stakeholder**.  
 
 ## Tahapan Penggunaan
-![Tahapan Penggunaan Model IBM]()
+![Tahapan Penggunaan Model IBM](https://raw.githubusercontent.com/PIP-Bravo/BNI_Stock_Price_Analysis_for_StakeHolder/refs/heads/main/model_granite_prompting_instruction.png)
+
 1. **Pengumpulan Insight & Findings**  
    - Insight dan temuan hasil analisis data disimpan dalam sebuah DataFrame (`insight_findings_df`), yang mencakup kolom seperti:  
      - *Insight & Findings*  
